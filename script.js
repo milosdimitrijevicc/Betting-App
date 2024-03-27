@@ -41,3 +41,9 @@ const game = {
   }
   
 };
+
+//1.
+const [players1, players2] = game.players;
+console.log(players1, players2); 
+const [players12, players23] = game.players;
+console.log(players1, players2); 
